@@ -110,6 +110,7 @@
             font-size: 22px;
             line-height: 0;
             padding: 20px 0px;
+            cursor: pointer;
         }
 
         /*Handle Classes*/
@@ -119,18 +120,21 @@
             padding: 20px 16px;
             cursor: grab;
             user-select: none;
+            text-decoration: none;
         }
 
         .handle:after,
         .handle:before {
             display: block;
             content: "";
+            text-decoration: none;
         }
 
         .handle:active,
         .handle:active:before,
         .handle:active:after {
             cursor: grabbing;
+            text-decoration: none;
         }
 
         .dropArea {

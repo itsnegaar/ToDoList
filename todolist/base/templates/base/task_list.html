@@ -43,7 +43,7 @@
         </div>
         <div class="task-controls">
             <a class="delete-link" href="{% url 'task_delete' task.id %}">&#215;</a>
-            <span class="handle">&nbsp;&#10247;</span>
+            <span class="handle"><a href="{% url 'task_update' task.id %}">&nbsp;&#10247;</a></span>
         </div>
     </div>
 
